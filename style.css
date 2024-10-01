@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	font-family: "Figtree", sans-serif;
+}
+html,
+.rectangle,
+.category {
+	background-color: #f8d44c;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    box-shadow:  #000 10px 10px ;
+	height: 50vh;
+	background-color: #fff;
+	width: 20%;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.rectangle {
+	border-radius: 10px;
+	width: 100%;
+	height: 50%;
+}
+
+.category,
+.username {
+	font-weight: 800;
+}
+
+.category {
+    margin-top: 5%;
+	outline: none;
+	border: none;
+	padding: 4px 12px 4px 12px;
+	border-radius: 4px;
+}
+.desc {
+	color: #7f7f7f;
+}
+
+.user {
+	align-items: center;
+	display: flex;
+}
+
+.username {
+	margin-left: 5px;
+}
+
+img[alt = "Pfp"] {
+	width: 32px;
+	height: 32px;
+	border-radius: 50px;
+}
