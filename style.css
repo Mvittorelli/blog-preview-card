@@ -23,8 +23,19 @@ html,
 	width: 20%;
 	padding: 20px;
 	border-radius: 20px;
+    transition: 0.3s;
 }
 
+h1{
+    transition: 0.3s;
+}
+
+.card:hover{
+    h1{
+        color: #f8d44c;
+    }
+    box-shadow:  #000 20px 20px 2px;
+}
 .rectangle {
 	border-radius: 10px;
 	width: 100%;
